@@ -37,7 +37,6 @@ def ollie_color_scheme():
     plt.rcParams['axes.titleweight'] = 'light'
     plt.rcParams['axes.spines.bottom'] = False
     plt.rcParams['axes.spines.top'] = False
-    #plt.rcParams['axes.prop_cycle'] = cycler('color', COLOR_PALETTE)
     plt.rcParams['legend.fancybox'] = False
     plt.rcParams['legend.facecolor'] = (0.1, 0.1, 0.1, 0.7)
     plt.rcParams['legend.edgecolor'] = (0.1, 0.1, 0.1, 0.9)
