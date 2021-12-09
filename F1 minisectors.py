@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Dec  3 18:01:16 2021
 
-@author: olliesowden
-"""
-
-"F1 Minisectors"
 
 
 " I am not very good at coding just an F1 fan who learnt some basic python at university "
@@ -44,7 +38,7 @@ ollie_color_scheme()
 
 
 # Enable cache
-fastf1.Cache.enable_cache('/Users/olliesowden/.spyder-py3/F1 data') #change to unique cache location
+fastf1.Cache.enable_cache('/Users/....cache') #change to unique cache location
 
 
 
