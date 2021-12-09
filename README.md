@@ -9,6 +9,8 @@
 
 This is a very basic method to plot the circuit map with a defined integer number of minisectors.
 
+I have made a thread comparing my results to the data published by Formula1. It can be seen that the calculated minisectors offer a pretty good approximation for the actual minisectors, however it does seem to differ from the true result at times.
+
 This is not corresponding to the minisectors that may show on the F1 app. My method divides the circuit up into equal length minisectors, the drivers in these sectors are then ranked in terms of highest average speed during each sector, and then plotting the minisector in the colour of the fastest driver with the added ability to label with the driver's number. 
 
 I have used a quicklaps threshold (usually about 103% of the best time in the session) which allows for more reliable data collection. This is because the fastf1 get_telemetry() function can return errors for certian slower laps if not used. 
@@ -18,6 +20,8 @@ At present the minisectors script takes the drivers' best laptime from the sessi
 I have used custom colour schemes that I have used along side the fastf1 package. You are welcome to import these or use alternatives. 
 
 My ultimate goal for this would for it to be a callable function with the driver numbers' as toggleable (on/off) labels built in to the function. 
+
+
 
 
 
