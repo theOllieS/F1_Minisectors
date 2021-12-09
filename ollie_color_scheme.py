@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 12 19:23:32 2021
-
-@author: olliesowden
-"""
 
 
 from matplotlib import pyplot as plt
@@ -16,11 +11,11 @@ from matplotlib import font_manager as fm, rcParams
 
 
 
-fpath = os.path.join(rcParams["datapath"], "/Users/olliesowden/.spyder-py3/F1 data/Formula1-Regular.ttf")#Download F1 font https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.ttf
+fpath = os.path.join(rcParams["datapath"], "/Users/........./Formula1-Regular.ttf")#Download F1 font https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.ttf
 prop = fm.FontProperties(fname=fpath)
 f1font = os.path.split(fpath)[1]
 
-fpathbold = os.path.join(rcParams["datapath"], "/Users/olliesowden/.spyder-py3/F1 data/Formula1-Bold.ttf")#Download F1 font https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.ttf
+fpathbold = os.path.join(rcParams["datapath"], "/Users/........./Formula1-Bold.ttf")#Download F1 font https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.ttf
 prop_bold = fm.FontProperties(fname=fpathbold)
 f1fontbold = os.path.split(fpathbold)[1]
 
