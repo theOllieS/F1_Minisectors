@@ -160,7 +160,7 @@ telemetry = telemetry.sort_values(by=['Distance'])
 
 
 # Assign integer value to the fastest driver in each minisector (driver number)
-for driver in drivers: 
+for driver in driver_list: 
     telemetry.loc[telemetry['Fastest_driver'] == driver , 'Fastest_driver_int'] = int(drv_num[np.where(drivers==driver)])
             
 
