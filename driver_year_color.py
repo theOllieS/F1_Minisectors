@@ -4,7 +4,7 @@
 "Making year dependent driver colour"
 
 
-#2019
+#2018
 DRIVER_COLORS_2018 = {'HAM': '#00d2be', 'BOT': '#1affe8', 'VER': '#0600ef', 'RIC': '#0800b5', 
                       'ALO': '#ff8700', 'VAN': '#ff6700', 'RAI': '#dc0000', 'VET': '#ff1a1a',
                       'SAI': '#FFF500', 'HUL': '#fffa66', 'PER': '#f596c8', 'OCO': '#f8b9db', 
