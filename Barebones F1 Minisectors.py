@@ -226,6 +226,21 @@ plt.axis('equal')
 plt.axis('off')
 
 
+# For a colourbar
+
+cbar = plt.colorbar(mappable=lc_comp, boundaries= bounds)
+#cbar.set_ticklabels(num_list_ordered)
+
+# Get driver numbers
+labels = np.array(minisector_details['Fastest_driver_int']).astype(int)
+# Or have driver names 
+labels = driver_name_ordered
+
+# Get midpoint of numbers in list
+loc = num_list_ordered[:-1] + np.diff(num_list_ordered)/2
+
+cbar.set_ticks(loc)
+cbar.set_ticklabels(labels)
 
 
 # For 1v1 driver vs driver
