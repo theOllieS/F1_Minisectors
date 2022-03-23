@@ -39,8 +39,8 @@ DRIVER_COLORS_2021 = {'HAM': '#00d2be', 'BOT': '#1affe8', 'VER': '#0600ef', 'PER
 DRIVER_COLORS_2022 = {'HAM': '#00d2be', 'RUS': '#1affe8', 'VER': '#0600ef', 'PER': '#0800b5', 
                       'NOR': '#ff8700', 'RIC': '#ff6700', 'LEC': '#dc0000', 'SAI': '#ff1a1a',
                       'ALO': '#0090ff',  'OCO': '#66bdff', 'VET': '#006f62', 'STR': '#004225', 
-                      'GAS': '#2b4562', 'TSU': '#4670a0', 'BOT': '#900000', 'GIO': '#660000', 
-                      'ALB': '#005aff', 'LAT': '#1a7cff', 'MSC': '#ffffff', 'MAZ': '#FAF9F6'}
+                      'GAS': '#2b4562', 'TSU': '#4670a0', 'BOT': '#900000', 'ZHO': '#660000', 
+                      'ALB': '#005aff', 'LAT': '#1a7cff', 'MSC': '#ffffff', 'MAG': '#FAF9F6'}
 
 
 def driver_year_color(identifier, year):
